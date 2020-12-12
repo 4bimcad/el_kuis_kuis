@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="onsenui/css/onsen-css-components.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link  src="js/JS Tabber.js">
+  <script src="onsenui/js/onsenui.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<ons-page >
+  <ons-toolbar style="font-family: 'Arial'; text-align: center; background-color: red;  ">
+    <div class="center" style="font-family: 'Arial'; text-align: center; color: white; "><b>"EL KUIS KUIS" - Restaurante Turístico</b></div>
+
+  </ons-toolbar>
+  <ons-tabbar swipeable position="auto" >
+    <ons-tab page="tab1.html" label="Menu">
+    </ons-tab>
+    <ons-tab page="tab2.html" label="Contactos">
+    </ons-tab>
+  </ons-tabbar>
+</ons-page>
+
+
+<template id="tab1.html">
+  <ons-navigator id="nav">
+    <ons-page>
+      <ons-toolbar>
+        <div class="center" style="background-color:orange;  text-align: center; color: white; font-family: Montserrat;"><b>¡Solicita tu Plato Favorito!</b></div>
+      </ons-toolbar>
+      
+      <ons-list>
+      <div class="card">
+      <img style="width: 100%" src="img/cuy.jpg" />
+
+        <ons-list-item modifier="nodivider">
+          <div class="left"><img class="list-item__thumbnail" src="img/icon.png" /></div>
+          <div class="center">
+           <span class="list-item__title"><b><span style="font-size: 1.3em;">"Cuy Chactado":</span> <span style="color:red; font-size: 1.3em;">S/42.00</span></b></span>
+          </div>
+        </ons-list-item>
+      </div>
+
+        <div class="card">
+        <img style="width: 100%" src="img/rocoto 2.jpg" />
+
+        <ons-list-item modifier="nodivider">
+          <div class="left"><img class="list-item__thumbnail" src="img/rocoto.png" /></div>
+          <div class="center">
+            <span class="list-item__title"><b><span style="font-size: 1.3em;">"Rocoto relleno y Pastel de papa":</span> <span style="color:red; font-size: 1.3em;">S/24.00</span></b></span>
+          </div>
+        </ons-list-item>
+      </div>
+
+
+
+      <div class="card">
+        <img style="width: 100%" src="img/chicharon.jpg" />
+
+        <ons-list-item modifier="nodivider">
+          <div class="left"><img class="list-item__thumbnail" src="img/pig.png" /></div>
+          <div class="center">
+           <span class="list-item__title" ><b><span style="font-size: 1.3em;">"Chicharrón de Chancho":</span> <span style="color:red; font-size: 1.3em; ">S/32.00</span></b></span>
+          </div>
+        </ons-list-item>
+      </div>
+
+      <div class="card">
+        <img style="width: 100%" src="img/doble.jpg" />
+
+        <ons-list-item modifier="nodivider">
+          <div class="left"><img class="list-item__thumbnail" src="img/two.png" /></div>
+          <div class="center">
+           <span class="list-item__title" ><b><span style="font-size: 1.3em;">"Doble":</span> <span style="color:red; font-size: 1.3em; ">S/37.00</span></b></span>
+            <span class="list-item__subtitle">- Rocoto relleno y Pastel de papa</span>
+            <span class="list-item__subtitle">- Chicharrón de Chancho</span>
+          </div>
+        </ons-list-item>
+      </div>
+
+      <div class="card">
+        <img style="width: 100%" src="img/triple.jpg" />
+
+        <ons-list-item modifier="nodivider">
+          <div class="left"><img class="list-item__thumbnail" src="img/three.png" /></div>
+          <div class="center">
+            <span class="list-item__title"><b><span style="font-size: 1.3em;">"Triple":</span> <span style="color:red; font-size: 1.3em;">S/38.00</span></b></span>
+            <span class="list-item__subtitle">- Rocoto relleno y Pastel de papa</span>
+            <span class="list-item__subtitle">- Chicharrón de Chancho</span>
+            <span class="list-item__subtitle">- Zarza de patitas</span>
+          </div>
+        </ons-list-item>
+      </div>
+        
+      <div class="card">
+        <img style="width: 100%" src="img/caldo.jpg" />
+
+        <ons-list-item modifier="nodivider">
+          <div class="left"><img class="list-item__thumbnail" src="img/soup.png" /></div>
+          <div class="center">
+            <span class="list-item__title"><b><span style="font-size: 1.3em;">"Caldo de Lomos":</span> <span style="color:red; font-size: 1.3em;">S/17.00</span></b></span>
+          </div>
+        </ons-list-item>
+      </div>
+
+      </ons-list>
+    </ons-page>
+  </ons-navigator>
+</template>
+
+
+<template id="tab2.html">
+  <ons-page id="Contactos">
+    <div class="card">
+        <span style="text-align: center; "><b><h1><i class="fas fa-truck"></i> DELIVERY: <a href="tel:+51998984333">9989-84-333</a></h1></b></span>
+    </div>
+    <div class="card">
+        <span style="text-align: center; font-family: Montserrat;"><h3>Dirección: <a href="https://goo.gl/maps/6FdABMs8tTZKAi6v7">"EL KUIS KUIS" - Restaurante Turístico, Calle Fernandini 143, Sachaca, Arequipa, Perú.</h3></a></span>
+    </div>
+
+<img src="img/map cuis.png" class="img-fluid" alt="">
+<div style="text-align: center;"><sub style="font-size: 0.2em">Aplicación para su Negocio: 4bimcad@gmail.com</sub></div>
+  </ons-page>
+</template>
+
+</body>
+</html>

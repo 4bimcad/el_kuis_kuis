@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "El Kuis Kuis"
+    versionCode = "1.0"
+    version     = "1.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>El Kuis Kuis</name>
+  <icon src="img/icon.png" />
+  <description>
+  	<p>	
+  		Restaurante turístico. Platos típicos.
+		</p>
+    <p>	
+    	
+    </p>   
+  </description>
+
+  <author href="https://www.linkedin.com/in/4bimcad/" email="4bimcad@gmail.com">
+      Stanislav Tsvitkov
+  </author>
+<preference name="android-minSdkVersion"  value="16" />
+<preference name="android-targetSdkVersion"  value="28" />
+</widget>
