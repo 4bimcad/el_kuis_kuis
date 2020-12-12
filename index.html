@@ -14,7 +14,7 @@
 
 <ons-page >
   <ons-toolbar style="font-family: 'Arial'; text-align: center; background-color: red;  ">
-    <div class="center" style="font-family: 'Arial'; text-align: center; color: white; "><b>"EL KUIS KUIS" - Restaurante Turístico</b></div>
+    <div class="center" style="font-family: 'Arial'; text-align: center; color: white; "><b> "EL KUIS KUIS" - Restaurante Turístico</b></div>
 
   </ons-toolbar>
   <ons-tabbar swipeable position="auto" >
@@ -116,14 +116,22 @@
 <template id="tab2.html">
   <ons-page id="Contactos">
     <div class="card">
-        <span style="text-align: center; "><b><h1><i class="fas fa-truck"></i> DELIVERY: <a href="tel:+51998984333">9989-84-333</a></h1></b></span>
+      <span style="text-align: center;"><i class="fas fa-truck"></i>&nbsp;DELIVERY:</span>
+      <input class="form-control input-lg" id="inputlg" value="998984333" style="color: #0B81FF; text-align: center;" type="text" disabled>
+      <div style="text-align: center;"><sub>(Para llamar: Copia y Pega el numero en "Contactos")</sub></div>
     </div>
     <div class="card">
-        <span style="text-align: center; font-family: Montserrat;"><h3>Dirección: <a href="https://goo.gl/maps/6FdABMs8tTZKAi6v7">"EL KUIS KUIS" - Restaurante Turístico, Calle Fernandini 143, Sachaca, Arequipa, Perú.</h3></a></span>
+      <span style="text-align: center;"><i class="fas fa-map-marked-alt"></i>&nbsp;DIRECCIÓN:</span>
+      <input class="form-control input-lg" id="inputlg" value="Calle Fernandini 143, Sachaca, Arequipa, Perú" style="color: #0B81FF; text-align: center;" type="text" disabled>
+      <div style="text-align: center;"><sub>(Para ver la ruta: Copia y Pega dirección en "Google Maps")</sub></div>
+      <img src="img/map cuis.png" class="img-fluid" alt="">
     </div>
 
-<img src="img/map cuis.png" class="img-fluid" alt="">
-<div style="text-align: center;"><sub style="font-size: 0.2em">Aplicación para su Negocio: 4bimcad@gmail.com</sub></div>
+   <div class="card">
+    <img src="img/_El_KUIS_KUIS_Restaurante_tur_stico.png" class="img-fluid" alt="">
+   </div>
+
+  <div style="text-align: center;"><sub style="font-size: 0.3em">Aplicación para su Negocio: 4bimcad@gmail.com</sub></div>
   </ons-page>
 </template>
 
